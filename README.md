@@ -43,14 +43,12 @@ Contributing
 
 Contributions are welcome! If you find any issues or want to enhance the project, please feel free to submit a pull request.
 
-License
-
-This project is licensed under the MIT License. Please see the LICENSE file for more details.
 
 Acknowledgments
 
-    Mention any libraries or resources used in the project.
-    Give credit to any contributors or sources that inspired or helped you in the development process.
+    C#, Entity Framework, Dependency Injection, JWT Authentication
+    Ajax, JQuery, Bootstrap Framework, AdminLTE Template
+    
 
 Contact
 
