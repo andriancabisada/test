@@ -48,7 +48,7 @@ namespace Test.Controllers
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
-            var accessToken = tokenHandler.WriteToken(token);
+            var accessToken = "Bearer " + tokenHandler.WriteToken(token);
 
             HttpContext.Session.SetString("Email", _user.Email);
             HttpContext.Session.SetString("UserName", _user.UserName);
